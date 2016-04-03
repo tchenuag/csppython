@@ -59,23 +59,39 @@ Three more examples:
 
 	  We can develop a general rule for this case, which is this: **Given the expression** ``a % b``**, where** ``a`` **and** ``b`` **are positive integers, if** ``a < b``**, the result is always** ``a``.
 
+**Order of Operations**
+
+PEMDAS is followed by most programming languages, where the order of operations are:
+	- P - Parentheses first, then
+	- E - Exponents, then
+	- M/D - Multiplication/Division/**Modulo**, then
+	- A/S - Addition/Subtraction
 
 Practice: Check Your Understanding
 ----------------------------------
 
 .. fillintheblank:: question_01_05_01
-
 	.. blank:: blank1
 		:correct: \\b12\\b
 		:feedback1: (".*", "Don't forget your PEMDAS!")
 
 		Evaluate the following expression: ``3 ** 2 + 3``
+
+.. fillintheblank:: question_01_05_02
 	.. blank:: blank2
 		:correct: \\b27\\b
-		:feedback1: (".*", "Look carefully now!")
+		:feedback1: (".*", "Make sure you do the parentheses first!")
 
 		Evaluate the following expression: ``3 ** (2 % 3)``
 
+.. parsonsprob:: question_01_05_03
+	
+	Order the groups of operations in the order that they should be evaluated.  Top is evaluated first, while bottom is evaluated last.
+	-----
+	parentheses
+	exponents
+	mult/div/mod
+	add/sub
 
 Lesson: Strings and Operators
 -----------------------------
