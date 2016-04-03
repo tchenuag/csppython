@@ -47,10 +47,10 @@ Practice: Check For Understanding
 
 .. mchoice:: question01_04_01
 	:correct: c
-	:answer_a: ``int``
-	:answer_b: ``float``
-	:answer_c: ``string``
-	:answer_d: ``boolean``
+	:answer_a: int
+	:answer_b: float
+	:answer_c: string
+	:answer_d: boolean
 	:feedback_a: int is short for integer, which is a number. Try again! Hint: What datatype uses quotes?
 	:feedback_b: float is short for floating point number. Try again! Hint: What datatype uses quotes?
 	:feedback_c: Great job - only strings will use quotes!
@@ -61,10 +61,10 @@ Practice: Check For Understanding
 .. mchoice:: question01_04_02
 	:multiple_answers:
 	:correct: b,d
-	:answer_a: ``boolean``
-	:answer_b: ``int``
-	:answer_c: ``string``
-	:answer_d: ``float``
+	:answer_a: boolean
+	:answer_b: int
+	:answer_c: string
+	:answer_d: float
 	:feedback_a: Boolean has two values, while there are certainly more than two numbers in existence!
 	:feedback_b: integers are numbers!
 	:feedback_c: Strings use quotes, which numbers don't need..
