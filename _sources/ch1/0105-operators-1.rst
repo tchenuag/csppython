@@ -3,11 +3,11 @@
    :prefix: 01-05-
 
 
-Operators in Python
-===================
+Operators with Numbers
+======================
 
-Lesson: Numbers and Operators
------------------------------
+Basic Operators
+---------------
 
 Let's first review the four common math operators:
 	+-----------------+--------+----------------------+
@@ -21,6 +21,9 @@ Let's first review the four common math operators:
 	+-----------------+--------+----------------------+
 	| Division        | ``/``  | ``6/2`` (result: 3)  |
 	+-----------------+--------+----------------------+
+
+New Operators
+-------------
 
 In Python, there are two other operators we need to know.
 
@@ -59,13 +62,16 @@ Three more examples:
 
 	  We can develop a general rule for this case, which is this: **Given the expression** ``a % b``**, where** ``a`` **and** ``b`` **are positive integers, if** ``a < b``**, the result is always** ``a``.
 
-**Order of Operations**
+Order of Operations
+-------------------
 
 PEMDAS is followed by most programming languages, where the order of operations are:
 	- P - Parentheses first, then
 	- E - Exponents, then
 	- M/D - Multiplication/Division/**Modulo**, then
 	- A/S - Addition/Subtraction
+
+Note that Modulo is on the same level as multiplication and division.
 
 Practice: Check Your Understanding
 ----------------------------------
@@ -94,20 +100,3 @@ Practice: Check Your Understanding
 	exponents
 	mult/div/mod
 	add/sub
-
-Lesson: Strings and Operators
------------------------------
-
-
-
-Practice: Check Your Understanding
-----------------------------------
-
-Lesson: Booleans and Operators
-------------------------------
-
-
-
-Practice: Check Your Understanding
-----------------------------------
-
