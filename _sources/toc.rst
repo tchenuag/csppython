@@ -12,3 +12,4 @@ Chapter 0: Introduction To The Python Language
 	ch1/0102-what-is-cs.rst
 	ch1/0103-why-python.rst
 	ch1/0104-python-datatypes.rst
+	ch1/0105-operators.rst
