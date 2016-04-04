@@ -2,14 +2,10 @@
    :start: 1
    :prefix: 01-06-
 
-
-Operators with Strings
+Operators and Booleans
 ======================
 
-Addition with Strings
----------------------
 
-Run the code below.  
 
 Practice: Check Your Understanding
 ----------------------------------
