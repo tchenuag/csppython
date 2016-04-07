@@ -56,7 +56,7 @@ Three more examples:
 
 	- 4 % 7
 
-	  7 fits into 4 zero (0) times.  ``7 * 0 = 0``, which we can follow with ``4 (total) - 0 (result) = 4 (remainder)``.  Since 7 doesn't fit into 4 at all, the remainder is just ``0``.
+	  7 fits into 4 zero (0) times.  ``7 * 0 = 0``, which we can follow with ``4 (total) - 0 (result) = 4 (remainder).  Since 7 doesn't fit into 4 at all, the remainder is just ``0``.
 
 	  Another way of saying it is: 4 divided by 7 rounded down is 0, and 4 - (7 * 0) = 4.
 
