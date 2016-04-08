@@ -66,7 +66,15 @@ Run the code below.
 
 What can be concluded from your observations from above?  Use your observations to predict the next bit of code.
 
-..
+.. fillintheblank:: cfu_multstring_1
+
+	..blank:: blank1
+		:correct: heyheyheythere
+		:feedback1: (".*", "Keep in mind the order of operations!")
+
+		What will be the result of the following code? ``print "hey" * 3 + "there"
+
+
 
 Practice: Check Your Understanding
 ----------------------------------
