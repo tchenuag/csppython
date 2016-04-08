@@ -44,7 +44,9 @@ Great!  So notice that there is a clear difference between the two values: ``100
 
 	What will be the result of the following code? print "John" + "Smith"
 
-One important thing to note when combining strings is that they are combined, character for character.  That means that if you are combining a first and last name, one of your strings has to have a space, or the result will not have any spaces!
+Using addition with strings, or joining them together, is called **string concatenation**.
+
+One important thing to note when using string concatenation is that they are combined character for character.  That means that if you are combining a first and last name, one of your strings has to have a space, or the result will not have any spaces!
 
 See the following examples:
 	- ``"hi" + "there" ==> "hithere"``
@@ -72,9 +74,9 @@ What can be concluded from your observations from above?  Use your observations 
 		:correct: heyheyheythere
 		:feedback1: (".*", "Keep in mind the order of operations!")
 
-		What will be the result of the following code? ``print "hey" * 3 + "there"
+		What will be the result of the following code? ``print "hey" * 3 + "there"``
 
-
+Multiplication with strings will just repeat that string.
 
 Practice: Check Your Understanding
 ----------------------------------
