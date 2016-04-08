@@ -72,13 +72,13 @@ What can be concluded from your observations from above?  Use your observations 
 
 .. fillintheblank:: cfu_multstring_1
 
-	..blank:: blank1
+	.. blank:: blank1
 		:correct: heyheyheythere
 		:feedback1: (".*", "Keep in mind the order of operations!")
 
 		What will be the result of the following code? ``print "hey" * 3 + "there"``
 
-Multiplication with strings will just repeat that string.
+Multiplication with strings will just repeat that string. Order of operation still applies - multiplication before addition!
 
 Practice: Check Your Understanding
 ----------------------------------
