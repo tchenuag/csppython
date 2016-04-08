@@ -61,6 +61,7 @@ Multiplication with Strings
 Run the code below.
 
 .. activecode:: ac_multstring_1
+
 	print 1 * 3
 	print "1" * 3
 	print "hi" * 5
