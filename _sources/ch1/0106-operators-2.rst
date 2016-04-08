@@ -14,6 +14,7 @@ Addition with Strings
 Run the code below.  Notice the differences in the two print statements that are run.
 
 .. activecode:: ac_addstring_1
+
 	print 1 + 3
 	print "1" + "3")
 	print ""
