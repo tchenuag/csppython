@@ -1,7 +1,6 @@
 .. qnum::
    :start: 1
-   :prefix: 01-06-
-
+   :prefix: 01-10-
 
 Conversion Functions
 ====================
@@ -17,15 +16,15 @@ You would use **conversion functions** to *turn one datatype into another dataty
 
 Table of the conversion functions:
 
-	+-----------------------------------+------------+
-	| To convert to a String, use...    | str()      |
-	+-----------------------------------+------------+
-	| To convert to a Boolean, use...   | str()      |
-	+-----------------------------------+------------+
-	| To convert to a Float, use...     | float()    |
-	+-----------------------------------+------------+
-	| To convert to an Integer, use...  | int()      |
-	+-----------------------------------+------------+
+	+-----------------------------------+-------------+
+	| To convert to a String, use...    | ``str()``   |
+	+-----------------------------------+-------------+
+	| To convert to a Boolean, use...   | ``str()``   |
+	+-----------------------------------+-------------+
+	| To convert to a Float, use...     | ``float()`` |
+	+-----------------------------------+-------------+
+	| To convert to an Integer, use...  | ``int()``   |
+	+-----------------------------------+-------------+
 
 You would use these functions by putting the value you want to convert between the parentheses.  Try running the example below:
 
