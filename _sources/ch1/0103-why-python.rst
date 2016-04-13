@@ -6,6 +6,8 @@
 Why Learn Python?
 =================
 
+**Learning Target: I can recognize the importance of Python as a programming language.**
+
 Python is a language for beginners
 ----------------------------------
 

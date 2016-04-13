@@ -6,6 +6,8 @@
 Operators with Strings
 ======================
 
+**Learning Target: I can predict the result of operations on strings.**
+
 Not all operators work with strings.  In Python, you can only use strings with the ``+`` addition and ``*``  multiplication operators.
 
 Addition with Strings

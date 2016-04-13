@@ -6,6 +6,8 @@
 Operators with Numbers
 ======================
 
+**Learning Target: I can write mathmatical expressions in Python**
+
 Basic Operators
 ---------------
 

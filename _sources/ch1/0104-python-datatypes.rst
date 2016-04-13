@@ -6,6 +6,8 @@
 Data Representation in Python
 =============================
 
+**Learning Target: I can describe the ways in which Python can represent data.**
+
 Lesson: What is data?
 ---------------------
 

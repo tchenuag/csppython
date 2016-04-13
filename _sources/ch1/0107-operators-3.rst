@@ -5,6 +5,8 @@
 Operators and Booleans
 ======================
 
+**Learning Target: I can use booleans in mathematical expressions.**
+
 A Simple Explanation
 --------------------
 

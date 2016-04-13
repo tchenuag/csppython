@@ -6,6 +6,8 @@
 Integer Division
 ================
 
+**Learning Target: I can recognize when a quotient will give an less accurate result.**
+
 If you experimented around with division and integers, you might have noticed something funny.  Run the code below as an example:
 
 .. activecode:: ac_intdiv_1
