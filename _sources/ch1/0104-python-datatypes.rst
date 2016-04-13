@@ -14,7 +14,7 @@ Everything you see right now is data.  Cellular signals flying through the air i
 In Python, the five basic datatypes that we will be learning are:
 	- ``int``
 
-	  ``int`` is short for **integer**, which means any **whole number** (a number with no decimals).  In Python, a number is an int when it has no decimal point.  Integers are 32-bit, which mean they have a maximum value of 1 less than 2 to the power of 32 ``(2^32 - 1)``, or ``4294967295``.
+	  ``int`` is short for **integer**, which means any **whole number** (a number with no decimals).  In Python, a number is an int when it has no decimal point.  Integers are 32-bit, which mean they have a maximum value of ``(2^32 - 1)``, or ``4294967295``.
 
 	  Examples of integers are: ``1``, ``-402``, ``9999999``
 

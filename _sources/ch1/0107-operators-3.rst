@@ -23,6 +23,7 @@ Whenever you run code that uses any of the PEMDAS operators on True or False, it
 Example:
 
 .. activecode:: ac_bool_1
+	:nocodelens:
 
 	print True + True # 1+1
 	print True + False # 1+0

@@ -46,11 +46,11 @@ Three more examples:
 
 	  6 fits into 20 three (3) times.  ``3 * 6 = 18``, which means that there is ``20 (total) - 18 (result) = 2 (remainder)`` left over.  The remainder of this expression is 2, so ``20 % 6 = 2``.
 
-	  Another way of saying it is: 20 divided by 6 rounded down is 3, and 20 - (6 * 3) = 2.
+	  Another way of saying it is: 20 divided by 6 is 2.666, rounded down is 3, and 20 - (6 * 3) = 2.
 
 	- 27 % 9
 
-	  9 fits into 27 five (3) times.  ``9 * 3 = 27``, which means that there is `` 27 (total) - 27 (result) = 0 (remainder)`` left over.  Since 9 divides 27 evenly, there is no remainder, so ``27 % 9 = 0``.
+	  9 fits into 27 five (3) times.  ``9 * 3 = 27``, which means that there is ``27 (total) - 27 (result) = 0 (remainder)`` left over.  Since 9 divides 27 evenly, there is no remainder, so ``27 % 9 = 0``.
 
 	  Another way of saying it is: 27 divided by 9 is exactly 3, so there is no remainder, so it is 0.
 
@@ -58,9 +58,9 @@ Three more examples:
 
 	  7 fits into 4 zero (0) times.  ``7 * 0 = 0``, which we can follow with ``4 (total) - 0 (result) = 4 (remainder)``.  Since 7 doesn't fit into 4 at all, the remainder is just ``0``.
 
-	  Another way of saying it is: 4 divided by 7 rounded down is 0, and 4 - (7 * 0) = 4.
+	  Another way of saying it is: 4 divided by 7 is .571, rounded down is 0, and 4 - (7 * 0) = 4.
 
-	  We can develop a general rule for this case, which is this: **Given the expression** ``a % b``**, where** ``a`` **and** ``b`` **are positive integers, if** ``a < b``**, the result is always** ``a``.
+	  We can develop a general rule for this case, which is this: **Given the expression** ``a % b`` **, where** ``a`` **and** ``b`` **are positive integers, if** ``a < b`` **, the result is always** ``a``.
 
 Order of Operations
 -------------------
