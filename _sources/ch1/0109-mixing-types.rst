@@ -11,7 +11,7 @@ Now that we know that we can use operators to combine values, what happens if we
 Mixing Ints with Floats and Booleans
 ------------------------------------
 
-When you mix integers, floats, and booleans together, interesting things happen.  There is a "hierarchy" of types in which combining a "greater" type and a "lesser" type will give you a result of the "greater" type.  The hierarchy is as follows:
+When you mix integers, floats, and booleans together, interesting things happen.  There is a **"hierarchy"** of types in which *combining a "greater" type and a "lesser" type will give you a result of the "greater" type*.  The hierarchy is as follows:
 
 ``float`` > ``int`` > ``boolean``
 
@@ -21,7 +21,7 @@ To observe, run the following code:
 	:nocodelens:
 	:caption: Note that everything after the # is a comment and is not run as code
 
-	print 1 + 1		#int + int => int
+	print 1 + 1	#int + int => int
 	print 1.0 + 1.0	#float + float => float
 	print 1 + 1.0 	#int + float => float
 	print True + 1	#boolean + int => int
@@ -36,7 +36,7 @@ You might look at this expression and think of the following steps:
 
 However, **types change as they are evaluated**.  This means that the steps for the above are more like this:
 	- PEMDAS dictates that division happens first.
-	- ``2 / 4`` involves two integers, so the result is ``0`` (``0.5`` rounded down)
+	- ``2 / 4`` involves two integers, so the result is ``0.5`` rounded down, or just ``0``
 	- All that's left is addition, so we can evaluate it left to right.
 	- ``1 + 0 + 0.5`` will be evaluated from left to right, making the ``1 + 0`` happen first (which equals ``1``)
 	- ``1 + 0.5`` is what remains, which is an int plus a float, so the result will be a float (decimal): ``1.5``
@@ -67,7 +67,7 @@ Check For Understanding
 		:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
 		:feedback4: (".*", "Try again!")
 
-	Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
+		Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
 .. fillintheblank:: cfu_mixtype_2
 	
@@ -78,7 +78,7 @@ Check For Understanding
 		:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
 		:feedback4: (".*", "Try again!")
 
-	Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
+		Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
 Mixing Strings with Anything
 ----------------------------
@@ -93,7 +93,7 @@ In the following code, replace the ``1`` with any other value that is not a Stri
 	print "hello" + 1
 	#replace the second part with anything that is not a String
 
-You should find that you get a ValueError every time!
+You should find that you get a TypeError every time!
 
 The rule can basically be broken down into three parts:
 	- Adding a String to another String is allowed
