@@ -61,10 +61,10 @@ Check For Understanding
 .. fillintheblank:: cfu_mixtype_2
 	
 	.. blank:: blank1
-		:correct: \\b2.0\\b
-		:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
-		:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
-		:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
+		:correct: 2.0
+		:feedback1: ("2", "Have you considered the ending datatype?")
+		:feedback2: ("16.0", "Don't forget about PEMDAS!")
+		:feedback3: ("16", "Don't forget about PEMDAS!")
 		:feedback4: (".*", "Try again!")
 
 		Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
@@ -72,10 +72,10 @@ Check For Understanding
 .. fillintheblank:: cfu_mixtype_3
 	
 	.. blank:: blank2
-		:correct: \\b6.0\\b
-		:feedback1: ("\\b6\\b", "Have you considered the ending datatype?")
-		:feedback2: ("\\b6.5\\b", "Remember, integer division!")
-		:feedback3: ("\\b1.25\\b", "Don't forget about PEMDAS!")
+		:correct: 6.0
+		:feedback1: ("6", "Have you considered the ending datatype?")
+		:feedback2: ("6.5", "Remember, integer division!")
+		:feedback3: ("1.25", "Don't forget about PEMDAS!")
 		:feedback4: (".*", "Try again!")
 
 		Evaluate the following expression: ``10 / 4 + 4.0``.  Don't forget to consider PEMDAS as well as the datatypes.
