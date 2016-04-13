@@ -61,22 +61,22 @@ Check For Understanding
 .. fillintheblank:: cfu_mixtype_2
 	
 	.. blank:: blank1
-	:correct: \\b2.0\\b
-	:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
-	:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
-	:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
-	:feedback4: (".*", "Try again!")
+		:correct: \\b2.0\\b
+		:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
+		:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
+		:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
+		:feedback4: (".*", "Try again!")
 
 	Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
 .. fillintheblank:: cfu_mixtype_2
 	
-	.. blank:: blank1
-	:correct: \\b2.0\\b
-	:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
-	:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
-	:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
-	:feedback4: (".*", "Try again!")
+	.. blank:: blank2
+		:correct: \\b2.0\\b
+		:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
+		:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
+		:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
+		:feedback4: (".*", "Try again!")
 
 	Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
