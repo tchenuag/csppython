@@ -93,9 +93,9 @@ In the following code, replace the ``1`` with any other value that is not a Stri
 	print "hello" + 1
 	#replace the second part with anything that is not a String
 
-You should find that you get a TypeError every time!
+You should find that you get a ``TypeError`` every time!
 
 The rule can basically be broken down into three parts:
-	- Adding a String to another String is allowed
-	- Multiplying a String by an Integer is allowed
-	- Everything else is **not** allowed
+	- Adding a string to another string is allowed
+	- Multiplying a string by an integer is allowed
+	- **Everything else is not allowed**
