@@ -65,7 +65,7 @@ Check For Understanding
 	:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
 	:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
 	:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
-	:feedback3: (".*", "Try again!")
+	:feedback4: (".*", "Try again!")
 
 	Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
@@ -76,7 +76,7 @@ Check For Understanding
 	:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
 	:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
 	:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
-	:feedback3: (".*", "Try again!")
+	:feedback4: (".*", "Try again!")
 
 	Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
