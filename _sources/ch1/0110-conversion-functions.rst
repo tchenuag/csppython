@@ -58,7 +58,53 @@ Here are a few notes for specific type to type conversions:
 	| string | float  | becomes a float if it looks like a number  |
 	+--------+--------+--------------------------------------------+
 
+Checks for Understanding
+------------------------
 
+.. mchoice:: mc_convfunc_1
+	:correct: b
+	:answer_a: int
+	:answer_b: float
+	:answer_c: string
+	:feedback_a: Which conversion function is being used?
+	:feedback_b: Nice job!
+	:feedback_c: Which conversion function is being used?
 
+	What is the resulting datatype of the following expression? ``float("10")``
 
+.. mchoice:: mc_convfunc_2
+	:correct: c
+	:answer_a: int
+	:answer_b: float
+	:answer_c: string
+	:feedback_a: Which conversion function is being used?
+	:feedback_b: Which conversion function is being used?
+	:feedback_c: Nice job!
+
+	What is the resulting datatype of the following expression? ``str(False)``
+
+.. mchoice:: mc_convfunc_3
+	:correct: c
+	:answer_a: 2
+	:answer_b: "2.3"
+	:answer_c: 2.3
+	:answer_d: "2"
+	:feedback_a: What's the rule when the str() function is used?
+	:feedback_b: Nice job!
+	:feedback_c: What's the rule when the str() function is used?
+	:feedback_d: What's the rule when the str() function is used?
+
+	What is the result of the following expression? ``str(2.3)``
+
+A Note on Errors
+----------------
+
+So what happens if you try to convert something like a word to an integer?  See for yourself:
+
+.. activecode:: ac_convfunc_2
+	:nocodelens:
+
+	print int("ten")
+
+Note the error.  Keep that in mind!  **Only strings that use digits can be converted to numbers.**
 
