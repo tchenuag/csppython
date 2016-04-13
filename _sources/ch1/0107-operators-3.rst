@@ -13,9 +13,9 @@ Remember that Booleans represent two values, ``True`` and ``False``.  But each o
 	+---------------+-----------+
 	| Boolean Value | Int Value |
 	+===============+===========+
-	| True			| 1			|
+	| True          | 1         |
 	+---------------+-----------+
-	| False			| 0			|
+	| False	        | 0         |
 	+---------------+-----------+
 
 Whenever you run code that uses any of the PEMDAS operators on True or False, it will just use their integer values.
