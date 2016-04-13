@@ -44,14 +44,19 @@ You would use these functions by putting the value you want to convert between t
 
 Here are a few notes for specific type to type conversions:
 
-	+--------+--------+---------------------------+
-	| From   | To     | Note                      |
-	+========+========+===========================+
-	| any    | string | put quotes around int     |
-	+--------+--------+---------------------------+
-	| int    | float  | put a .0 at the end       |
-	+--------+--------+---------------------------+
-	| float  | int    | 
+	+--------+--------+--------------------------------------------+
+	| From   | To     | Note                                       |
+	+========+========+============================================+
+	| any    | string | put quotes around int                      |
+	+--------+--------+--------------------------------------------+
+	| int    | float  | put a .0 at the end                        |
+	+--------+--------+--------------------------------------------+
+	| float  | int    | drop everything after decimal point        |
+	+--------+--------+--------------------------------------------+
+	| string | int    | becomes an int if it looks like a number   |
+	+--------+--------+--------------------------------------------+
+	| string | float  | becomes a float if it looks like a number  |
+	+--------+--------+--------------------------------------------+
 
 
 
