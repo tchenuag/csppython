@@ -15,3 +15,5 @@ Chapter 1: Introduction To The Python Language
 	ch1/0105-operators-1.rst
 	ch1/0106-operators-2.rst
 	ch1/0107-operators-3.rst
+	ch1/0108-integer-division.rst
+	ch1/0109-mixing-types.rst

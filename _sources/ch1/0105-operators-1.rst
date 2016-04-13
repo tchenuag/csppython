@@ -87,7 +87,7 @@ Practice: Check Your Understanding
 .. fillintheblank:: question_01_05_02
 
 	.. blank:: blank2
-		:correct: \\b27\\b
+		:correct: \\b9\\b
 		:feedback1: (".*", "Make sure you do the parentheses first!")
 
 		Evaluate the following expression: ``3 ** (2 % 3)``
