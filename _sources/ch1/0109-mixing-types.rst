@@ -69,16 +69,16 @@ Check For Understanding
 
 		Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
-.. fillintheblank:: cfu_mixtype_2
+.. fillintheblank:: cfu_mixtype_3
 	
 	.. blank:: blank2
-		:correct: \\b2.0\\b
-		:feedback1: ("\\b2\\b", "Have you considered the ending datatype?")
-		:feedback2: ("\\b16.0\\b", "Don't forget about PEMDAS!")
-		:feedback3: ("\\b16\\b", "Don't forget about PEMDAS!")
+		:correct: \\b6.0\\b
+		:feedback1: ("\\b6\\b", "Have you considered the ending datatype?")
+		:feedback2: ("\\b6.5\\b", "Remember, integer division!")
+		:feedback3: ("\\b1.25\\b", "Don't forget about PEMDAS!")
 		:feedback4: (".*", "Try again!")
 
-		Evaluate the following expression: ``8 / 2 ** 2.0``.  Don't forget to consider PEMDAS as well as the datatypes.
+		Evaluate the following expression: ``10 / 4 + 4.0``.  Don't forget to consider PEMDAS as well as the datatypes.
 
 Mixing Strings with Anything
 ----------------------------
