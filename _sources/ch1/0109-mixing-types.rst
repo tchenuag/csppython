@@ -73,8 +73,8 @@ Check For Understanding
 	
 	.. blank:: blank2
 		:correct: 6.0
-		:feedback1: ("6", "Have you considered the ending datatype?")
-		:feedback2: ("6.5", "Remember, integer division!")
+		:feedback1: ("6.5", "Remember, integer division!")
+		:feedback2: ("6", "Have you considered the ending datatype?")
 		:feedback3: ("1.25", "Don't forget about PEMDAS!")
 		:feedback4: (".*", "Try again!")
 
