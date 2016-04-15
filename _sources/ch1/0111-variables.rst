@@ -28,16 +28,14 @@ Let's start with how to name variables.  There are a few rules we have to follow
 
 .. mchoice:: cfu_var_1
 	:multiple_answers:
-	:correct: a,b,c,d,g
-	:answer_a: name
-	:answer_b: NAME
-	:answer_c: n4m3
-	:answer_d: _name_
-	:answer_e: |\|4M3
-	:answer_f: 1_name
-	:answer_g: ______name_
-	:feedback_e: Check the rules of what the name can contain!
-	:feedback_f: What can variables not start with?
+	:correct: a,b,e
+	:answer_a: NAME
+	:answer_b: n4m3
+	:answer_c: |\|4M3
+	:answer_d: 1_name
+	:answer_e: ______name_
+	:feedback_c: Check the rules of what the name can contain!
+	:feedback_d: What can variables not start with?
 
 	Select all valid variable names.
 
