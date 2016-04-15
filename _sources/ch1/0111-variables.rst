@@ -58,10 +58,10 @@ Run the code below to observe the behavior of multiple assignment statements lin
 	:nocodelens:
 
 	num = 10
-	print "\n\n" #this is to make the output line up, ignore this line
+	print "\n" #this is to make the output line up, ignore this line
 	print num
 	num = 15
-	print "\n\n" #same as before, ignore this line!
+	print "\n" #same as before, ignore this line!
 	print num
 
 The four steps this code is executing are:
@@ -74,7 +74,7 @@ Try the problem below to solidify your understanding.
 
 .. parsonsprob:: cfu_var_1
 
-	Order the code in the correct order that will correct set ``saying`` to ``"hello"``, then set ``saying`` to ``"goodbye"``, then print ``saying``.
+	Order the code in the correct order that will correct set the variable saying to "hello", then set saying to "goodbye", then print saying.
 	-----
 	saying = "hello"
 	saying = "goodbye"
@@ -83,4 +83,19 @@ Try the problem below to solidify your understanding.
 Retrieving From a Variable
 --------------------------
 
-To get a value from a variable, you just have to reference the variable name, either alone or as part of an expression.
+To get a value from a variable, you just have to reference the variable name, either alone or as part of an expression.  We have been doing this quite frequently by using ``print`` statements.  Let's explore some examples in which we reference variables.
+
+The following code will create three variables, ``x``, ``y``, and ``z``, setting ``x`` to the value of ``1``, setting ``y`` to the value of ``2.0``, and setting ``z`` to the sum of ``x`` and ``y``.
+
+.. activecode:: ac_var_2
+	:nocodelens:
+	:caption: Try changing the values of x and y, run the code, and observe how it changes!
+
+	x = 1
+	y = 2.0
+	z = x + y
+	print z
+
+If you tried changing the values of ``x`` and ``y`` and running the code again, you will have noticed that the output (``z``) changed.  That's because when it gets to ``line 3`` and we are executing a variable assignment statement for ``z``, we first have to evaluate the right side, which is ``x + y``.  Since ``x`` and ``y`` are variables, we pull the values from within the variables to use in their place.  So if ``x`` was ``1`` and ``y`` was ``2.0``, ``x + y`` would be the same as ``1 + 2.0``.
+
+The important takeaway here is that **variable names, when used in an expression, always represents the value stored inside**.
