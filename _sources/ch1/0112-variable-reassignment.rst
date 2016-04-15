@@ -13,6 +13,9 @@ With lots of experience in math and little experience in programming, when you s
 
 Red flags should instantly go off in your head.  How can ``x`` be equal to itself plus 1??  Can ``5`` be equal to ``6``?  No, of course not!
 
+Increasing or Decreasing a Variable
+-----------------------------------
+
 What you should not forget, however, is that the ``=`` symbol in programming is different from the ``=`` symbol in mathematics.
 
 To review, the equal sign means **variable assignment** - it has a very specific purpose.
@@ -30,6 +33,10 @@ However, this would have worked with any value of ``x``!  Let's say ``x`` was ``
 Let's run through some example code below, step by step.
 
 .. codelens:: cl_reassign_1
+	:question: What is the value of num that will get printed?
+	:breakline: 4
+	:feedback: Go through line by line, with num starting at 10.
+	:correct: globals.num
 
 	num = 10
 	num = num + 5
