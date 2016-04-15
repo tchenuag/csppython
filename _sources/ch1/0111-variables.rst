@@ -34,8 +34,11 @@ Let's start with how to name variables.  There are a few rules we have to follow
 	:answer_c: |\|4M3
 	:answer_d: 1_name
 	:answer_e: ______name_
+	:feedback_a: Great job!
+	:feedback_b: Great job!
 	:feedback_c: Check the rules of what the name can contain!
 	:feedback_d: What can variables not start with?
+	:feedback_e: Great job!
 
 	Select all valid variable names.
 
