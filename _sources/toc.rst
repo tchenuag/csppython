@@ -18,3 +18,6 @@ Chapter 1: Introduction To The Python Language
 	ch1/0108-integer-division.rst
 	ch1/0109-mixing-types.rst
 	ch1/0110-conversion-functions.rst
+	ch1/0111-variables.rst
+	ch1/0112-variable-assignment.rst
+	ch1/o113-variable-reassignment.rst
