@@ -42,3 +42,19 @@ Let's run through some example code below, step by step.
 	num = num + 5
 	num = num * 2
 	print num
+
+``
+x = 10
+x = 10 * 5
+x = x - 5
+x = x / 9
+``
+.. mchoice:: cfu_reassign_2
+	:correct: 
+
+	What will the result of ``x`` be after the code above is run?
+
+Warning: Error Ahead!
+---------------------
+
+You'll want to be careful what you're 
