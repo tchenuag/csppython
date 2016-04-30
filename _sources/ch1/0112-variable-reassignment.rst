@@ -57,4 +57,28 @@ x = x / 9
 Warning: Error Ahead!
 ---------------------
 
-You'll want to be careful what you're 
+You'll want to be careful about how you use variable reassignment.  For example, take the following program:
+
+.. activecode:: ac_reassign_1
+	:nocodelens:
+	:caption: Errors with reassignment
+
+	x = x + 1
+	print "x is now " + str(x)
+
+Notice how you get an error.  That's because of how *regular variable assignment* works.
+
+Remember that the right side of the equal sign is evaluated **first**.  So it's trying to evaluate ``x + 1``, but ``x`` doesn't have a value yet!  So it will give you a ``NameError``.
+
+You would have to give variables an initial value.  This is called **initializing** a variable.  So before you can use ``x = x + 1``, you will have to give ``x`` a value, using a regular assignment statement.  Maybe with ``x = 0``.  The new code will look like this:
+
+.. activecode:: ac_reassign_2
+	:nocodelens:
+	:caption: No error here!
+
+	x = 0
+	x = x + 1
+	print "x is now " + str(x)
+
+**Always make sure that your variables are initialized!**
+
